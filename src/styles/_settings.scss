@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "cursive";
+  src: url(../assets/fonts/BelleAllureGS-Fin.otf);
+}
+@font-face {
+  font-family: "script-2";
+  src: url(../assets/fonts/BelleAllureScript2i-Fin.otf);
+}
+
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Questrial-Regular.ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/Michroma-Regular.ttf);
+}
+@font-face {
+  font-family: "font-3";
+  src: url(../assets/fonts/Dongle-Regular.ttf);
+}
+
+$cursive-GS: "cursive", sans-serif;
+$script-GS: "script-2", serif;
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", serif;
+$font-3: "font-3", serif;
+
+$color-1: #264653;
+$color-2: #F4A261;
+$color-3: #e7f7fe;
+
+body {
+  height: 100vh;background: hsla(27, 87%, 67%, 1);
+  background: linear-gradient(225deg, hsla(27, 87%, 67%, 1) 0%, hsla(43, 74%, 66%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(27, 87%, 67%, 1) 0%, hsla(43, 74%, 66%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(27, 87%, 67%, 1) 0%, hsla(43, 74%, 66%, 1) 100%);
+}
